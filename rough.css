@@ -1,0 +1,132 @@
+@import url(./fontawesome-free-6.2.0-web/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+
+body {
+    background-color: #ffffff !important;
+    color: #2a3362 !important;
+    font-family: "Encode Sans Semi Condensed", sans-serif !important;
+    overflow-x: hidden;
+}
+
+nav {
+    list-style: none;
+}
+
+nav img {
+    width: 70px;
+    height: 70px;
+}
+
+nav a {
+    color: black;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.decline {
+    padding: 10px 40px;
+    background-color: rgb(221, 219, 219);
+    color: black;
+    border-radius: 10px;
+}
+
+.accept {
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+header .menu-2 {
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px;
+    position: relative;
+    top: -78px;
+}
+
+.setpass {
+
+    width: 280px;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+
+
+}
+
+#signup {
+
+    background-color: #000066;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    position: relative;
+    top: 9px;
+    margin: auto;
+}
+
+#login {
+    color: #2a3362;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    position: relative;
+    top: 9px;
+    margin: auto;
+}
+
+#worries {
+    font-size: small;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #000066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#forget {
+    font-weight: 800px;
+    font-size: 2.1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#newpss {
+    font-size: xx-small;
+}
+
+#privacy {
+    width: 280px;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+    font-weight: 800px;
+    font-size: 2.1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
