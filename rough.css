@@ -9,7 +9,7 @@
 
 body {
     background-color: #ffffff !important;
-    color: #2a3362 !important;
+    color: #000000 !important;
     font-family: "Encode Sans Semi Condensed", sans-serif !important;
     overflow-x: hidden;
 }
@@ -46,7 +46,7 @@ ul {
 
 .accept {
     padding: 10px 40px;
-    background-color: blue;
+    background-color: #3127A7;
     color: white;
     border-radius: 10px;
 }
@@ -64,7 +64,7 @@ header .menu-2 {
 
 .setpass {
 
-    width: 280px;
+    width: 554px;
     height: auto;
     margin: auto;
     border-radius: 3px;
@@ -74,19 +74,22 @@ header .menu-2 {
 
 #signup {
 
-    background-color: #000066;
+    background-color: #3127A7;
     color: white;
     font-size: 16px;
     cursor: pointer;
     width: 70px;
-    height: 20px;
+    height: 30px;
     position: relative;
     top: 9px;
     margin: auto;
 }
+#signup.hover {
+    
+}
 
 #login {
-    color: #2a3362;
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
     width: 70px;
@@ -101,11 +104,11 @@ header .menu-2 {
 }
 
 input[type="submit"] {
-    width: 200px;
-    height: 35px;
+    width: 554px;
+    height: 52px;
     margin-top: 20px;
     border: none;
-    background-color: #000066;
+    background-color: #3127A7;
     color: white;
     font-size: 18px;
     cursor: pointer;
