@@ -130,3 +130,13 @@ input[type="submit"] {
     font-size: 2.1rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#createacct {
+    width: 280px;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+    font-weight: 300px;
+    font-size: 1.1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
