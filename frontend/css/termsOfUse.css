@@ -34,14 +34,14 @@ ul {
   padding: 150px;
 }
 .decline {
-  padding: 10px 40px;
+  padding: 5px 30px;
   background-color: #ffffff;
   color: black;
   border-radius: 10px;
   border: 2px solid #3127a7
 }
 .accept {
-  padding: 10px 40px;
+  padding: 5px 30px;
   background-color: #3127a7;
   color: white;
   border-radius: 10px;
