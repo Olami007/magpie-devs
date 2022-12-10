@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px, 80px, 0px, 80px;
+    box-shadow: 8px 16px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+img {
+    width: 41.67px;
+    height: 41.67px;
+}
+img .logo{
+    width: 116px;
+    height: 29px;
+}
+
+ .signup {
+    width: 63px;
+    height: 26px;
+    padding: 2px 4px;
+    gap: 5px;
+    background: #3127A8;
+    border-radius: 8px;
+    color: white;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 553px;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container img {
+    margin: 0 auto;
+}
+.continue {
+    background: #3127A8;
+border-radius: 10px;
+color: white;
+height: 35px;
+margin-top: 20px;
+}
+
+.back {
+    margin-top: 10px;
+    order: 0;
+flex-grow: 0;
+    display: flex;
+    align-items: center;
+    flex: none;
+    text-align: left;
+    
+}
